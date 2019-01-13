@@ -36,6 +36,23 @@ body{
     border-radius: 25px;
     background-color: white;
     opacity: 0.9;
+    box-shadow: 5px 5px 4px #777;
+}
+
+.home_content h4{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.home_content img {
+    float: right;
+}
+
+.home_content:after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 footer{
