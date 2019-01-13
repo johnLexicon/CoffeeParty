@@ -1,0 +1,16 @@
+
+body{
+    /* Falls back to sans-serif if Open sans is not available */
+    font-family: 'Open sans', sans-serif;
+    /* Added so the nav-bar does not overlap the content on the top of the site */
+    padding-top: 80px;
+    background-color: orange;
+}
+
+.navbar{
+    padding: 15px 15px;
+}
+
+.navbar ul{
+    padding-top: 15px;
+}
