@@ -8,7 +8,7 @@ body{
 }
 
 .navbar{
-    padding: 15px 15px;
+    padding: 0px 15px;
     transition: all 0.5s;
 }
 
@@ -36,5 +36,29 @@ body{
     border-radius: 25px;
     background-color: white;
     opacity: 0.9;
+}
+
+footer{
+    background-color: #333;
+    height: 100px;
+}
+
+.footer-content{
+    color: #9d9d9d;
+    padding: 30px;
+    font-size: 1.2em;
+}
+
+.footer-content span:last-child{
+    float: right;
+}
+
+@media(max-width:767px){
+
+    .footer-content{
+        font-size: 1em;
+        padding: 30px 5px;
+    }
+
 }
 
