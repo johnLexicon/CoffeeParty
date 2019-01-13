@@ -3,14 +3,38 @@ body{
     /* Falls back to sans-serif if Open sans is not available */
     font-family: 'Open sans', sans-serif;
     /* Added so the nav-bar does not overlap the content on the top of the site */
-    padding-top: 80px;
+    padding-top: 110px;
     background-color: orange;
 }
 
 .navbar{
     padding: 15px 15px;
+    transition: all 0.5s;
 }
 
 .navbar ul{
     padding-top: 15px;
 }
+
+.navbar-header{
+    padding: 15px;
+}
+
+.navbar-header button {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.cbp-af-header-shrink{
+    opacity: 0.9;
+    padding-top: 0px;
+}
+
+.home_content{
+    padding: 25px;
+    margin: 25px;
+    border-radius: 25px;
+    background-color: white;
+    opacity: 0.9;
+}
+
