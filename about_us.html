@@ -10,8 +10,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
-
-
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
     <title>About Us</title>
 </head>
@@ -32,7 +31,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="index.html">
-                        <img src="images/logo_orange.png" alt="Site logo">
+                        <img src="images/logo_orange_50x50.png" alt="Site logo">
                     </a>
                 </div>
 
@@ -50,13 +49,52 @@
 
     <div class="container-fluid">
         <div class="row">
-            <section class="col-sm-6">
+
+            <section class="col-md-6 about-us-content"> 
                 <div>
                     <h1>Contact Us</h1>
-                    <p>Adress bla bla bla</p>
+                    <ul>
+                        <li>
+                            Telephone number: 
+                        </li>
+                        <li>
+                            HR Email:
+                        </li>
+                        <li>
+                            <address>
+                                <strong>Address:</strong>
+                                <p>
+                                    Sankt Eriksgatan 22, 112 39 Stockholm
+                                </p>
+                            </address>
+                        </li>
+                    </ul>
                 </div>
 
-                <div id="map"></div>
+                <h1>Here we are...</h1>
+                <div id="map">
+
+                </div>
+
+            </section>
+
+            <section class="col-md-6 about-us-content">
+
+                <div id="company-info">
+                    <h1>Company Info</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        ea commodo
+                    </p>
+
+                </div>
+
+                <div>
+                    <img class="img-responsive img-rounded" src="images/coffee-break-party-and-a-recipe-for-coffee-ice-cream-feature.jpg"
+                        alt="Visit Us" title="Visit Us">
+                </div>
 
             </section>
         </div>
@@ -80,11 +118,8 @@
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 
-    <!-- <script>
-        document.addEventListener("DOMContentLoaded", createDrivingDirectionMap, false);
-    </script> -->
     <script src="js/geopositioning.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=API-KEY=createDrivingDirectionMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3zCI9nl1CXpsBge3dNKBBjhXNKLAbQF4&callback=createDrivingDirectionMap"
         async defer></script>
 
 </body>

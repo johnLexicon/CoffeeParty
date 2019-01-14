@@ -3,7 +3,7 @@ body{
     /* Falls back to sans-serif if Open sans is not available */
     font-family: 'Open sans', sans-serif;
     /* Added so the nav-bar does not overlap the content on the top of the site */
-    padding-top: 110px;
+    padding-top: 80px;
     background-color: orange;
 }
 
@@ -21,7 +21,7 @@ body{
 }
 
 .navbar-header button {
-    margin-top: 30px;
+    margin-top: 24px;
     padding: 0;
 }
 
@@ -72,10 +72,34 @@ footer{
 
 @media(max-width:767px){
 
+    body{
+        padding-top: 55px;
+    }
+
     .footer-content{
         font-size: 1em;
         padding: 30px 5px;
     }
+}
+
+/** About US **/
+
+section.about-us-content {
+    padding: 15px;
+}
+
+.about-us-content h1, .about-us-content p {
+    padding-bottom: 20px;
+}
+
+.about-us-content img{
+    margin: 0px auto;
+    box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 60px;
+}
+
+#company-info{
+    text-align: center;
+    padding: 0px 100px;
 }
 
 #map{
