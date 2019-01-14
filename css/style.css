@@ -76,6 +76,9 @@ footer{
         font-size: 1em;
         padding: 30px 5px;
     }
+}
 
+#map{
+    height: 100%;
 }
 
