@@ -30,7 +30,7 @@ body{
     padding-top: 0px;
 }
 
-.home_content{
+.white-content-holder{
     padding: 25px;
     margin: 25px;
     border-radius: 25px;
@@ -39,7 +39,15 @@ body{
     box-shadow: 5px 5px 4px #777;
 }
 
-.home_content h4{
+.small-content-holder{
+    width: 22%;
+}
+
+.medium-content-holder{
+    width: 47%;
+}
+
+h4{
     font-size: 2em;
     margin-bottom: 20px;
     color: orange;
@@ -80,6 +88,17 @@ footer{
         font-size: 1em;
         padding: 30px 5px;
     }
+}
+
+/** Products **/
+
+#products-content h1 {
+    margin-left: 25px;
+}
+
+#coffee-machines img{
+    margin: 0 auto;
+    display: block;
 }
 
 /** About US **/
