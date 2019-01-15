@@ -101,6 +101,40 @@ footer{
     display: block;
 }
 
+.coffee-machines-content{
+    padding: 2px;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: 5px 5px 4px #777;
+}
+
+.coffee-machines-content h4{
+    font-size: 1em;
+    text-align: center;
+}
+
+@media (min-width: 1200px){
+    .col-lg-2 {
+        width: 15%;
+    }
+}
+
+@media (min-width: 992px){
+    .col-md-4{
+        width:31.5%;
+    }
+}
+
+@media (min-width: 768px){
+    .col-sm-6{
+        width: 48%;
+    }
+}
+
+
+
 /** About US **/
 
 section.about-us-content {
