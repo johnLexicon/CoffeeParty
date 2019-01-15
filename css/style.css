@@ -151,9 +151,17 @@ section.about-us-content {
 #company-info{
     text-align: center;
     padding: 0px 100px;
+    border-radius: 12px;
+    box-shadow: rgba(0,0,0,0.5) 10px 10px 60px;
 }
 
 #map{
     height: 100%;
+}
+
+#contact-us{
+    background-image: url('../images/coffee-break.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
