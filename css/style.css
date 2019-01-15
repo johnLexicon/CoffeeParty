@@ -115,9 +115,9 @@ footer{
     text-align: center;
 }
 
-@media (min-width: 1200px){
-    .col-lg-2 {
-        width: 15%;
+@media (min-width: 768px){
+    .col-sm-6{
+        width: 48%;
     }
 }
 
@@ -127,13 +127,11 @@ footer{
     }
 }
 
-@media (min-width: 768px){
-    .col-sm-6{
-        width: 48%;
+@media (min-width: 1200px){
+    .col-lg-2 {
+        width: 15%;
     }
 }
-
-
 
 /** About US **/
 
